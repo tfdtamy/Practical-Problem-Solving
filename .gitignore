@@ -1,0 +1,40 @@
+# 数据与大文件（放网盘，不进仓库）
+data/
+*.ply
+*.bin
+*.h5
+*.db3
+*.zip
+*.mp4
+photos_meta.xlsx
+
+# 三维重建中间产物
+recon/**/sparse/
+recon/**/dense/
+recon/**/database.db
+register/cache/
+reasoning/output/
+eval/results/**/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 环境变量
+.env
