@@ -4,19 +4,6 @@
 
 《问题求解实战》课程项目。把散落的校园历史照片定位到三维校园模型中，推断建筑变化年代与照片拍摄年代，并提供三维时空浏览与检索。
 
-## 目录结构
-
-| 目录 | 负责人 | 内容 |
-| --- | --- | --- |
-| `docs/` | 组长 | 数据接口 `interfaces.md`、目标区域 `areas.md`、评测方案、问题清单 `issues.md` |
-| `recon/` | A · 三维基底 | 重建脚本、各区域的 `report.md`（模型文件放网盘，不进仓库） |
-| `register/` | B · 照片配准 | `localize.py`、`batch.py`、`mask.py`、测试集脚本 |
-| `reasoning/` | C · 数据与推理 | `project_elements.py`、`presence.py`、`intervals.py`、`dating.py` |
-| `tools/` | C、组长 | `exif_extract.py`、`preprocess.py`、`face_blur.py`、`import_registrations.py` |
-| `backend/` | D · 网站 | FastAPI 后端 |
-| `frontend/` | D · 网站 | Vue 3 + Three.js 前端 |
-| `eval/` | 组长 | 评测脚本、人工判定表、`results/` 实验结果 |
-
 ## 交付规范
 
 1. 代码提交到仓库对应目录，commit 信息以任务编号开头，例如 `W4-B1 完成定位脚本`。
