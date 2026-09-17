@@ -26,7 +26,7 @@
 ## 各模块怎么跑
 
 - 后端：见 [backend/README.md](backend/README.md)
-- 前端：见 `frontend/README.md`（W3-D2 建立）
+- 前端：见 [frontend/README.md](frontend/README.md)
 - 其余模块在各自目录的 README 中说明
 
 ## 约定

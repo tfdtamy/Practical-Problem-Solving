@@ -1,6 +1,7 @@
 # 数据与大文件（放网盘，不进仓库）
 data/
 *.ply
+!frontend/public/sample.ply
 *.bin
 *.h5
 *.db3
